@@ -4,8 +4,8 @@ import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
-import { animDelay as d } from "@/lib/utils";
-import { navLinks, site } from "@/lib/data";
+import { animDelay as d } from "@/utils";
+import { navLinks, site } from "@/data";
 import { ArrowRight, Close, Mail, MapPin, Menu, Phone, socialIcons } from "./icons";
 
 function isActive(pathname: string, href: string) {

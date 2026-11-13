@@ -2,8 +2,8 @@
 
 import Image from "next/image";
 import { useEffect, useRef, useState } from "react";
-import { site, specialists } from "@/lib/data";
-import { delay } from "@/lib/utils";
+import { site, specialists } from "@/data";
+import { delay } from "@/utils";
 import { Share, socialIcons } from "./icons";
 import Pagination from "./Pagination";
 

@@ -6,8 +6,8 @@ import { Suspense } from "react";
 import PageBanner from "@/components/PageBanner";
 import SectionLabel from "@/components/SectionLabel";
 import { ArrowLeft, ArrowRight, Calendar, Heart, Tag, User } from "@/components/icons";
-import { blogPosts, getPost } from "@/lib/data";
-import { delay } from "@/lib/utils";
+import { blogPosts, getPost } from "@/data";
+import { delay } from "@/utils";
 
 export function generateStaticParams() {
   return blogPosts.map((p) => ({ slug: p.slug }));

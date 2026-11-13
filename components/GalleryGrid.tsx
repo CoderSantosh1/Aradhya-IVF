@@ -2,8 +2,8 @@
 
 import Image from "next/image";
 import { useCallback, useEffect, useState } from "react";
-import { gallery } from "@/lib/data";
-import { delay } from "@/lib/utils";
+import { gallery } from "@/data";
+import { delay } from "@/utils";
 import { ChevronLeft, ChevronRight, Close, ZoomIn } from "./icons";
 
 export default function GalleryGrid() {

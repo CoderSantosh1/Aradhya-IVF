@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { animDelay, delay } from "@/lib/utils";
+import { animDelay, delay } from "@/utils";
 import { Sparkle } from "./icons";
 import Counter from "./Counter";
 import SectionLabel from "./SectionLabel";

@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
-import { cardTreatments } from "@/lib/data";
-import { delay } from "@/lib/utils";
+import { cardTreatments } from "@/data";
+import { delay } from "@/utils";
 import { ArrowRight } from "./icons";
 
 /**

@@ -4,8 +4,8 @@ import ContactForm from "@/components/ContactForm";
 import { Check, Mail, MapPin, Phone } from "@/components/icons";
 import PageBanner from "@/components/PageBanner";
 import SectionLabel from "@/components/SectionLabel";
-import { site } from "@/lib/data";
-import { delay } from "@/lib/utils";
+import { site } from "@/data";
+import { delay } from "@/utils";
 
 export const metadata: Metadata = {
   title: "Contact Us",

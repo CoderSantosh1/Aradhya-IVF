@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import BlogGrid from "@/components/BlogGrid";
 import PageBanner from "@/components/PageBanner";
 import SectionLabel from "@/components/SectionLabel";
-import { delay } from "@/lib/utils";
+import { delay } from "@/utils";
 
 export const metadata: Metadata = {
   title: "Our Blog",

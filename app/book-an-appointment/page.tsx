@@ -4,7 +4,7 @@ import AppointmentForm from "@/components/AppointmentForm";
 import { Calendar, Heart, Shield } from "@/components/icons";
 import PageBanner from "@/components/PageBanner";
 import SectionLabel from "@/components/SectionLabel";
-import { delay } from "@/lib/utils";
+import { delay } from "@/utils";
 
 export const metadata: Metadata = {
   title: "Book An Appointment",

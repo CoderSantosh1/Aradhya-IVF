@@ -6,7 +6,7 @@ import SectionLabel from "@/components/SectionLabel";
 import Testimonials from "@/components/Testimonials";
 import TreatmentStack from "@/components/TreatmentStack";
 import { Heart, Sparkle } from "@/components/icons";
-import { animDelay as d, delay } from "@/lib/utils";
+import { animDelay as d, delay } from "@/utils";
 
 export default function HomePage() {
   return (

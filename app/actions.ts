@@ -8,7 +8,7 @@ import {
   validateAppointment,
   validateContact,
   type FormState,
-} from "@/lib/validation";
+} from "@/utils/validation";
 
 /*
  * These actions validate on the server and return a typed result.

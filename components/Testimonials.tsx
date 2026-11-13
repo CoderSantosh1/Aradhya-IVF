@@ -1,8 +1,8 @@
 "use client";
 
 import { useCallback, useEffect, useState } from "react";
-import { testimonials } from "@/lib/data";
-import { animDelay } from "@/lib/utils";
+import { testimonials } from "@/data";
+import { animDelay } from "@/utils";
 import { ArrowLeft, ArrowRight, Quote, Star } from "./icons";
 
 export default function Testimonials() {

@@ -2,7 +2,7 @@
 
 import { useActionState, useState, type FormEvent } from "react";
 import { submitContact } from "@/app/actions";
-import { contactFields, initialFormState, readForm, validateContact, type FieldErrors } from "@/lib/validation";
+import { contactFields, initialFormState, readForm, validateContact, type FieldErrors } from "@/utils/validation";
 import { Checkbox, FormStatus, TextArea, TextField } from "./FormFields";
 import { ArrowRight, FileText, Mail, Pencil, Phone, User } from "./icons";
 

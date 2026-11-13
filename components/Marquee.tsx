@@ -1,4 +1,4 @@
-import { marqueeItems } from "@/lib/data";
+import { marqueeItems } from "@/data";
 import { Sparkle } from "./icons";
 
 export default function Marquee() {

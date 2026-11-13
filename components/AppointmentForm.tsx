@@ -11,7 +11,7 @@ import {
   timeSlots,
   validateAppointment,
   type FieldErrors,
-} from "@/lib/validation";
+} from "@/utils/validation";
 import { FormStatus, SelectField, TextArea, TextField } from "./FormFields";
 
 const noopSubscribe = () => () => {};

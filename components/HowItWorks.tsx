@@ -1,5 +1,5 @@
-import { steps } from "@/lib/data";
-import { delay } from "@/lib/utils";
+import { steps } from "@/data";
+import { delay } from "@/utils";
 import { Baby, Clipboard, Embryo, Flask, Users } from "./icons";
 import SectionLabel from "./SectionLabel";
 

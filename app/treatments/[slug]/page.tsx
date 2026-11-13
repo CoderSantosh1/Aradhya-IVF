@@ -5,8 +5,8 @@ import { notFound } from "next/navigation";
 import { Suspense } from "react";
 import PageBanner from "@/components/PageBanner";
 import { ArrowRight, ChartUp, Check, HandsHeart, Lotus, Phone, Shield } from "@/components/icons";
-import { getTreatment, sidebarTreatmentSlugs, site, treatments } from "@/lib/data";
-import { delay } from "@/lib/utils";
+import { getTreatment, sidebarTreatmentSlugs, site, treatments } from "@/data";
+import { delay } from "@/utils";
 
 export function generateStaticParams() {
   return treatments.map((t) => ({ slug: t.slug }));

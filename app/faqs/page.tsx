@@ -3,8 +3,8 @@ import Image from "next/image";
 import FaqAccordion from "@/components/FaqAccordion";
 import PageBanner from "@/components/PageBanner";
 import SectionLabel from "@/components/SectionLabel";
-import { faqs } from "@/lib/data";
-import { delay } from "@/lib/utils";
+import { faqs } from "@/data";
+import { delay } from "@/utils";
 
 export const metadata: Metadata = {
   title: "FAQs",

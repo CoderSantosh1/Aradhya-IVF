@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { delay } from "@/lib/utils";
+import { delay } from "@/utils";
 import { Heart, Shield, Users } from "./icons";
 import SectionLabel from "./SectionLabel";
 

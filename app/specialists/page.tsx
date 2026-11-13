@@ -3,7 +3,7 @@ import Image from "next/image";
 import PageBanner from "@/components/PageBanner";
 import SectionLabel from "@/components/SectionLabel";
 import SpecialistsGrid from "@/components/SpecialistsGrid";
-import { delay } from "@/lib/utils";
+import { delay } from "@/utils";
 
 export const metadata: Metadata = {
   title: "Our Specialists",

@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
-import { footerServices, navLinks, site } from "@/lib/data";
-import { delay } from "@/lib/utils";
+import { footerServices, navLinks, site } from "@/data";
+import { delay } from "@/utils";
 import { ArrowUpRight, Mail, MapPin, Phone, socialIcons } from "./icons";
 
 export default function Footer() {

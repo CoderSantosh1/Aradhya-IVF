@@ -1,8 +1,8 @@
 "use client";
 
 import { useId, useState } from "react";
-import { faqs } from "@/lib/data";
-import { delay } from "@/lib/utils";
+import { faqs } from "@/data";
+import { delay } from "@/utils";
 import { Plus } from "./icons";
 
 export default function FaqAccordion() {

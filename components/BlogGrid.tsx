@@ -3,8 +3,8 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useRef, useState } from "react";
-import { blogPosts } from "@/lib/data";
-import { delay } from "@/lib/utils";
+import { blogPosts } from "@/data";
+import { delay } from "@/utils";
 import { ArrowRight, Calendar } from "./icons";
 import Pagination from "./Pagination";
 

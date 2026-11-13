@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Marquee from "./Marquee";
-import { animDelay, delay } from "@/lib/utils";
+import { animDelay, delay } from "@/utils";
 import { Heart, Sparkle } from "./icons";
 
 type Crumb = { label: string; href?: string };
