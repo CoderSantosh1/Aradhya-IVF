@@ -78,7 +78,6 @@ export default function GalleryGrid() {
             <div className="relative aspect-[413/437] max-h-[80vh] w-full overflow-hidden rounded-2xl sm:aspect-[4/3]">
               <Image key={gallery[active].src} src={gallery[active].src} alt={gallery[active].alt} fill sizes="1000px" className="object-contain" />
             </div>
-   
           </figure>
         )}
         <button type="button" aria-label="Close" onClick={() => setActive(null)} className="absolute right-5 top-5 grid size-12 place-items-center rounded-full bg-white/10 text-white transition-all duration-300 hover:rotate-90 hover:bg-primary">
