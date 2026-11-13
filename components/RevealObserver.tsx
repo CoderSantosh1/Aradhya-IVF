@@ -181,7 +181,9 @@ export default function RevealObserver() {
           play(entry.target as HTMLElement, reduced);
         }
       },
-      { threshold: 0.12, rootMargin: "0px 0px -60px 0px" },
+      // Tall images can stay clipped when a short viewport never reaches a
+      // percentage visibility threshold. Reveal as soon as they enter view.
+      { threshold: 0, rootMargin: "0px" },
     );
 
     const watch = (el: Element) => {
