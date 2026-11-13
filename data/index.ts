@@ -18,6 +18,6 @@ export const blogPosts = category.blogPosts;
 export const getPost = (slug: string) => category.blogPosts.find((post) => post.slug === slug);
 export const faqs = category.faqs;
 export const testimonials = category.testimonials;
-export const steps = category.steps;
+export const steps = category.steps as import("@/types/category").JourneyStep[];
 
-export type { BlogPost, CategoryData, SiteData, Treatment } from "@/types/category";
+export type { BlogPost, CategoryData, JourneyStep, SiteData, StepIconName, Treatment } from "@/types/category";

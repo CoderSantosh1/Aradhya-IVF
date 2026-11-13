@@ -10,3 +10,7 @@ export type SiteData = Omit<CategoryData["common"]["site"], "socials"> & {
 };
 export type Treatment = CategoryData["categories"]["AaradhyaIVF"]["treatments"][number];
 export type BlogPost = CategoryData["categories"]["AaradhyaIVF"]["blogPosts"][number];
+export type StepIconName = "users" | "clipboard" | "flask" | "embryo" | "baby";
+export type JourneyStep = Omit<CategoryData["categories"]["AaradhyaIVF"]["steps"][number], "icon"> & {
+  icon: StepIconName;
+};
