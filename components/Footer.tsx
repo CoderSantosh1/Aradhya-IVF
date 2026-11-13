@@ -95,7 +95,13 @@ export default function Footer() {
             aria-label="Open our location in Google Maps"
           >
             <span className="block overflow-hidden rounded-xl">
-              <Image src="/images/map.jpg" alt="Map showing Aaradhya IVF in New Delhi" width={419} height={194} className="h-auto w-full" />
+              <iframe
+                src={site.mapEmbed}
+                title="Map showing Aaradhya IVF in Springfield, USA"
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                className="block h-[194px] w-full border-0"
+              />
             </span>
             <span className="pointer-events-none absolute left-[54%] top-[38%] size-10 -translate-x-1/2 -translate-y-1/2 rounded-full bg-primary/40 animate-pulse-ring" />
           </a>
