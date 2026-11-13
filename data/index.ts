@@ -1,8 +1,9 @@
 import categoryData from "./category.json";
+import type { SiteData } from "@/types/category";
 
 const category = categoryData.categories.AaradhyaIVF;
 
-export const site = categoryData.common.site;
+export const site = categoryData.common.site as SiteData;
 export const navLinks = categoryData.common.navLinks;
 export const marqueeItems = categoryData.common.marqueeItems;
 export const footerServices = categoryData.common.footerServices;
