@@ -72,7 +72,7 @@ export default function HomePage() {
       <TreatmentStack />
 
       {/* --------------------------- Testimonials --------------------------- */}
-      <section className="py-16 lg:py-[110px]">
+      <section className="py-16 sm:py-10 lg:py-[110px]">
         <div className="mx-auto grid max-w-[1351px] items-center gap-12 px-4 sm:px-8 lg:grid-cols-[569px_1fr] lg:gap-10 lg:pl-[37px] lg:pr-[27px]">
           <div data-reveal="mask-up" className="img-zoom relative mx-auto aspect-[569/822] w-full max-w-[569px] overflow-hidden rounded-2xl">
             <Image src="/images/testimonial.jpg" alt="Doctor caring for a smiling expecting mother" fill sizes="(min-width: 1024px) 569px, 100vw" className="object-cover" />

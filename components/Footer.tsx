@@ -6,11 +6,11 @@ import { ArrowUpRight, Mail, MapPin, Phone, socialIcons } from "./icons";
 
 export default function Footer() {
   return (
-    <footer className="relative mt-8 overflow-hidden bg-gradient-to-b from-blush to-[#fceaea]">
+    <footer className="relative mt-2 overflow-hidden bg-gradient-to-b from-blush to-[#fceaea]">
       <div className="mx-auto grid max-w-[1351px] lg:grid-cols-[1fr_515px]">
         {/* Left side */}
         <div className="lg:border-r lg:border-primary/20">
-          <div className="grid gap-8 px-4 py-12 sm:px-12 md:grid-cols-[minmax(0,320px)_1fr] md:items-center md:gap-0 lg:pl-[60px]">
+          <div className="grid gap-8 px-4 py-12 sm:px-2 md:grid-cols-[minmax(0,320px)_1fr] md:items-center md:gap-0 lg:pl-[60px]">
             <div data-reveal="up">
               <Link href="/" aria-label="Aaradhya IVF home" className="inline-block">
                 <Image src="/images/logo.png" alt="Aaradhya IVF" width={2172} height={724} className="h-[88px] w-auto" />
