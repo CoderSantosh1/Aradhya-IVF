@@ -550,53 +550,49 @@
         {
           "name": "Dr. Aditi Sharma",
           "role": "IVF Specialist",
-          "image": "/images/dr-1.jpg"
+          "image": "/images/dr-1.png"
         },
         {
           "name": "Dr. Rohit Mehta",
           "role": "Reproductive Endocrinologist",
-          "image": "/images/dr-2.jpg"
+          "image": "/images/dr-2.png"
         },
         {
           "name": "Dr. Neha Kapoor",
           "role": "Gynecologist",
-          "image": "/images/dr-3.jpg"
+          "image": "/images/dr-3.png"
         },
         {
           "name": "Dr. Vikram Saini",
           "role": "Andrologist",
-          "image": "/images/dr-4.jpg"
+          "image": "/images/dr-4.png"
         },
         {
           "name": "Dr. Priya Malhotra",
           "role": "Fertility Specialist",
-          "image": "/images/dr-5.jpg"
+          "image": "/images/dr-5.png"
         },
         {
           "name": "Dr. Karan Verma",
           "role": "Embryologist",
-          "image": "/images/dr-6.jpg"
+          "image": "/images/dr-6.png"
         },
         {
           "name": "Dr. Sneha Gupta",
           "role": "Obstetrician & Gynecologist",
-          "image": "/images/dr-7.jpg"
+          "image": "/images/dr-1.png"
         },
         {
           "name": "Dr. Anil Bhatia",
           "role": "Reproductive Medicine Specialist",
-          "image": "/images/dr-8.jpg"
+          "image": "/images/dr-2.png"
         },
         {
           "name": "Dr. Meera Iyer",
           "role": "Endocrinologist",
-          "image": "/images/dr-9.jpg"
+          "image": "/images/dr-3.png"
         },
-        {
-          "name": "Dr. Kavya Nair",
-          "role": "Fetal Medicine Specialist",
-          "image": "/images/dr-3.jpg"
-        },
+      
         {
           "name": "Dr. Arjun Rao",
           "role": "Laparoscopic Surgeon",
