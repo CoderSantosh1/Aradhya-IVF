@@ -109,7 +109,7 @@ export default function Footer() {
       </div>
 
       <div className="mx-auto max-w-[1351px] px-4 sm:px-11">
-        <div className="grid border-t border-primary/20 lg:grid-cols-[1fr_515px]">
+        <div className="grid border-t border-primary/20 lg:grid-cols-[1fr_415px]">
           <div className="flex flex-col items-center gap-4 py-5 sm:flex-row sm:justify-between lg:pr-[22%]">
             <p className="text-[15px] text-muted">© 2026 Aaradhya IVF. All Rights Reserved Powered by Lestow.</p>
             <div className="flex gap-4">
