@@ -1,5 +1,5 @@
 import type { Metadata, Viewport } from "next";
-import { DM_Sans, Gilda_Display, Lora } from "next/font/google";
+import { DM_Sans, Gilda_Display } from "next/font/google";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import RevealObserver from "@/components/RevealObserver";
@@ -10,12 +10,6 @@ import "./globals.css";
 const gilda = Gilda_Display({
   variable: "--font-gilda",
   weight: "400",
-  subsets: ["latin"],
-  display: "swap",
-});
-
-const lora = Lora({
-  variable: "--font-lora",
   subsets: ["latin"],
   display: "swap",
 });
@@ -52,7 +46,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       lang="en"
       // The inline script below adds the `js` class before first paint.
       suppressHydrationWarning
-      className={`${gilda.variable} ${lora.variable} ${dmSans.variable} antialiased`}
+      className={`${gilda.variable} ${dmSans.variable} antialiased`}
     >
       <body className="flex min-h-screen flex-col">
         <script

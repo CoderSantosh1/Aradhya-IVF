@@ -14,7 +14,7 @@
   --color-muted: #6b6f7b;
 
   --font-display: var(--font-gilda), "Georgia", serif;
-  --font-serif: var(--font-lora), "Georgia", serif;
+  --font-serif: var(--font-gilda), "Georgia", serif;
   --font-sans: var(--font-dm), system-ui, sans-serif;
 
   --shadow-soft: 0 10px 40px -12px rgb(180 43 85 / 0.18);
